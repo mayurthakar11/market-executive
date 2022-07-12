@@ -265,6 +265,57 @@
         margin: 0;
         padding: 0;
         clear: both;
+        transform: translateX(-100%);
+        transition: color 0.15s, transform 1s;
+        transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .nav-mobile.open ul li {
+        transform: translateX(0);
+    }
+    .nav-mobile ul li:nth-child(1) {
+        transition-delay: 0s, 100ms;
+    }
+    .nav-mobile ul li:nth-child(2) {
+        transition-delay: 0s, 150ms;
+    }
+    .nav-mobile ul li:nth-child(3) {
+        transition-delay: 0s, 200ms;
+    }
+    .nav-mobile ul li:nth-child(4) {
+        transition-delay: 0s, 250ms;
+    }
+    .nav-mobile ul li:nth-child(5) {
+        transition-delay: 0s, 300ms;
+    }
+    .nav-mobile ul li:nth-child(6) {
+        transition-delay: 0s, 350ms;
+    }
+    .nav-mobile ul li:nth-child(7) {
+        transition-delay: 0s, 400ms;
+    }
+    .nav-mobile ul li:nth-child(8) {
+        transition-delay: 0s, 450ms;
+    }
+    .nav-mobile ul li:nth-child(9) {
+        transition-delay: 0s, 500ms;
+    }
+    .nav-mobile ul li:nth-child(10) {
+        transition-delay: 0s, 550ms;
+    }
+    .nav-mobile ul li:nth-child(11) {
+        transition-delay: 0s, 600ms;
+    }
+    .nav-mobile ul li:nth-child(12) {
+        transition-delay: 0s, 650ms;
+    }
+    .nav-mobile ul li:nth-child(13) {
+        transition-delay: 0s, 700ms;
+    }
+    .nav-mobile ul li:nth-child(14) {
+        transition-delay: 0s, 750ms;
+    }
+    .nav-mobile ul li:nth-child(15) {
+        transition-delay: 0s, 800ms;
     }
     .nav-mobile ul li a {
         padding: 10px 15px;

@@ -99,15 +99,15 @@ $(window).on("load resize", function() {
 
 
 // scroll S
-$(".tab_scroll").mCustomScrollbar({
-    axis: "x",
-    theme: "dark-3",
-    setLeft: 0,
-    advanced: { autoExpandHorizontalScroll: true },
-    scrollButtons: {
-        enable: true
-    }
-});
+// $(".tab_scroll").mCustomScrollbar({
+//     axis: "x",
+//     theme: "dark-3",
+//     setLeft: 0,
+//     advanced: { autoExpandHorizontalScroll: true },
+//     scrollButtons: {
+//         enable: true
+//     }
+// });
 // scroll E
 
 
