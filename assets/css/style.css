@@ -2465,6 +2465,7 @@ textarea.form-control {
     width: 100%;
     margin: 0;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.102);
+    float: none;
 }
 
 .detail-main .detail-content .detail-desc .common-title {
@@ -2615,9 +2616,6 @@ textarea.form-control {
 }
 
 @media(max-width:767px) {
-    .thank_you_main {
-        padding: 50px 0;
-    }
     .thank_you_main .center-box {
         padding: 50px 15px 30px;
     }
@@ -2648,6 +2646,7 @@ textarea.form-control {
 /* 404 S*/
 
 .not-found-page {
+    padding: 100px 0;
     position: relative;
 }
 
@@ -2740,16 +2739,15 @@ textarea.form-control {
         font-size: 150px;
     }
     .not-found-page .error-center .error-desc {
-        margin: 40px 0;
+        margin: 50px 0;
     }
 }
 
 @media(max-width:479px) {
     .not-found-page .error-center .error-text .title {
-        font-size: 80px;
+        font-size: 100px;
     }
     .not-found-page .error-center .error-desc {
-        margin: 40px 0;
         font-size: 14px;
     }
 }
