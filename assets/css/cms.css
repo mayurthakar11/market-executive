@@ -1161,7 +1161,42 @@ body ol {
         width: 100%;
         margin: 0 0 20px 0;
     }
+    .share-button {
+        padding-bottom: 15px;
+    }
+    .jp-breadcrumb {
+        display: none;
+    }
+    .share-button .dropdown-toggle {
+        font-size: 0;
+    }
 }
 
 
 /* share button css E */
+
+.back-to-list {
+    position: absolute;
+    right: 15px;
+    bottom: -29px;
+}
+
+.back-to-list a {
+    padding: 10px 20px;
+    background: #8ce4f4;
+    color: #000000;
+    border-radius: 0 0 10px 10px;
+}
+
+.back-to-list i {
+    display: inline-block;
+    transform: rotate(180deg);
+    margin-right: 5px;
+}
+
+@media(min-width:1200px) {
+    .back-to-list a:hover {
+        background: #000000;
+        color: #8ce4f4;
+    }
+}
